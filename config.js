@@ -10,6 +10,6 @@ module.exports = {
         mentionStaffRolesOnNewMail: true // ← Mention staff roles when there is a new mail?
     },
     logs: {
-        webhookURL: 'process.env.WEBHOOK' // ← The logging webhook URL (OPTIONAL) (.env IS RECOMMENDED)
+        webhookURL: '' // ← The logging webhook URL (OPTIONAL) (.env IS RECOMMENDED)
     }
 };
